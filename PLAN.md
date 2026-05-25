@@ -118,11 +118,13 @@ These were promoted to `memory/semantic/preferences.md` on 2026-05-22. Watching 
 - **Hard rules** (in `memory/semantic/constraints.md` → "Drafting writing in this folder"): one piece per ask, check facts before choosing shape, bookmarks prompt the user's thinking (don't project), pre-publish foil + voice-signature + cold-reader check.
 - **Craft rules** (in `memory/semantic/preferences.md` Mozart section + Short-form section): observational pose vs earned stance, AI-Twitter literary-clever as its own slop genre, plain-phrasing test for every aphoristic line, verbs-for-the-cold-reader, no two-beat punchlines.
 - **New hard rule, added 2026-05-25:** no em-dashes in any drafted prose. See `constraints.md`; supersedes the earlier "genuine breaks are fine" carve-out in `preferences.md`.
+- **New operating mode, added 2026-05-25:** the assistant is named **wrizzer** and works in proactive mode — surface ideas, pick angles with positions stated, draft committed pieces, the user grades. See `memory/semantic/project-facts.md` Writing-partner workflow section, and the refined "bookmarks are seeds" rule in `constraints.md`. The earlier ask-first default is retired.
 
 ### State of the drafting workflow
 
-- **2026-05-25:** First article-length output committed — `drafts/2026-05-25-35-hour-run-was-the-announcement.md`. Seed: Qwen 3.7-Max + Antigravity 2.0 + Codex mobile bookmarks. Foil stated upfront before drafting. User delegated the pick ("write an article on any one of these"), then asked for the em-dash rule and the shutdown ritual. **Article is in "draft pending grade" state** — the user has not yet endorsed the content itself, only requested the em-dash rewrite. Counting this as 0.5 successes against the procedural threshold.
-- Drafting workflow is still **not yet procedural memory.** Rule is ≥2 validated successes. After two pieces the user endorses without major rewrite, lift the steps into `memory/procedural/draft-from-bookmark.md`.
+- **2026-05-25 (article):** First article-length output committed — `drafts/2026-05-25-35-hour-run-was-the-announcement.md`. Seed: Qwen 3.7-Max + Antigravity 2.0 + Codex mobile bookmarks. Foil stated upfront. User delegated the pick. Pending grade. Counts as 0.5 successes.
+- **2026-05-25 (tweet, first proactive-mode draft):** `drafts/2026-05-25-openclaw-cadence-tweet.md`. Seed: OpenClaw 6h RTT regression-test release notes. Foil: capability announcements (Qwen/Antigravity/Codex mobile) vs methodology announcements (OpenClaw). 276 chars, no em-dashes, position stated upfront before drafting per new proactive mode. Pending grade. Counts as 0.5 successes.
+- Drafting workflow is still **not yet procedural memory.** Rule is ≥2 validated successes. We have 1.0 across two drafts pending grade. If the user endorses both without major rewrite, lift the steps into `memory/procedural/draft-from-bookmark.md`.
 
 **Next concrete steps (pick one with the user):**
 1. Grade the 2026-05-25 article; revise or accept. If accepted, that's success #1 toward procedural.

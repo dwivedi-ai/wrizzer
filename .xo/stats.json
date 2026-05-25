@@ -1,44 +1,44 @@
 {
   "schema": 1,
-  "updated_at": "2026-05-25T17:09:20Z",
+  "updated_at": "2026-05-25T17:47:02Z",
   "rolling": {
     "7d": {
       "tokens": {
-        "input": 430,
-        "output": 227199
+        "input": 457,
+        "output": 257198
       },
       "by_model": {
         "claude-opus-4-7": {
-          "input": 430,
-          "output": 227199
+          "input": 457,
+          "output": 257198
         },
         "<synthetic>": {
           "input": 0,
           "output": 0
         }
       },
-      "files_edited": 14,
+      "files_edited": 15,
       "sessions": 9,
-      "active_minutes": 521
+      "active_minutes": 558
     },
     "30d": {
       "tokens": {
-        "input": 430,
-        "output": 227199
+        "input": 457,
+        "output": 257198
       },
       "by_model": {
         "claude-opus-4-7": {
-          "input": 430,
-          "output": 227199
+          "input": 457,
+          "output": 257198
         },
         "<synthetic>": {
           "input": 0,
           "output": 0
         }
       },
-      "files_edited": 14,
+      "files_edited": 15,
       "sessions": 9,
-      "active_minutes": 521
+      "active_minutes": 558
     }
   },
   "by_session": {
@@ -123,36 +123,37 @@
     },
     "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476": {
       "tokens": {
-        "input": 63,
-        "output": 38409
+        "input": 90,
+        "output": 68408
       },
       "files": [
         "drafts/2026-05-25-35-hour-run-was-the-announcement.md",
         "memory/semantic/constraints.md",
-        "PLAN.md"
+        "PLAN.md",
+        "PROGRESS.md"
       ],
-      "duration_ms": 4393042
+      "duration_ms": 6644352
     }
   },
   "by_runtime": {
     "claude_code": {
       "tokens": {
-        "input": 430,
-        "output": 227199
+        "input": 457,
+        "output": 257198
       },
       "by_model": {
         "claude-opus-4-7": {
-          "input": 430,
-          "output": 227199
+          "input": 457,
+          "output": 257198
         },
         "<synthetic>": {
           "input": 0,
           "output": 0
         }
       },
-      "files_edited": 14,
+      "files_edited": 15,
       "sessions": 9,
-      "active_minutes": 521
+      "active_minutes": 558
     }
   },
   "_session_totals": {
@@ -313,22 +314,23 @@
     },
     "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476": {
       "tokens": {
-        "input": 63,
-        "output": 38409
+        "input": 90,
+        "output": 68408
       },
       "files": [
         "drafts/2026-05-25-35-hour-run-was-the-announcement.md",
         "memory/semantic/constraints.md",
-        "PLAN.md"
+        "PLAN.md",
+        "PROGRESS.md"
       ],
-      "duration_ms": 4393042,
+      "duration_ms": 6644352,
       "first_ts": "2026-05-25T15:56:06.816Z",
-      "last_ts": "2026-05-25T17:09:19.858Z",
+      "last_ts": "2026-05-25T17:46:51.168Z",
       "runtime": "claude_code",
       "by_model_tokens": {
         "claude-opus-4-7": {
-          "input": 63,
-          "output": 38409
+          "input": 90,
+          "output": 68408
         }
       }
     }
