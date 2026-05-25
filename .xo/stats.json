@@ -1,0 +1,336 @@
+{
+  "schema": 1,
+  "updated_at": "2026-05-25T17:09:20Z",
+  "rolling": {
+    "7d": {
+      "tokens": {
+        "input": 430,
+        "output": 227199
+      },
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 430,
+          "output": 227199
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "files_edited": 14,
+      "sessions": 9,
+      "active_minutes": 521
+    },
+    "30d": {
+      "tokens": {
+        "input": 430,
+        "output": 227199
+      },
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 430,
+          "output": 227199
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "files_edited": 14,
+      "sessions": 9,
+      "active_minutes": 521
+    }
+  },
+  "by_session": {
+    "d81c2f65-4d89-425a-9a13-e32421530f5b": {
+      "tokens": {
+        "input": 16,
+        "output": 2992
+      },
+      "files": [],
+      "duration_ms": 48718
+    },
+    "1176d947-b6f1-4739-b4e5-759f98b6037b": {
+      "tokens": {
+        "input": 24,
+        "output": 2819
+      },
+      "files": [],
+      "duration_ms": 2586272
+    },
+    "4c28fb56-96fa-4bf0-9ea4-724149bcddbc": {
+      "tokens": {
+        "input": 22,
+        "output": 6484
+      },
+      "files": [
+        "PROJECT.md"
+      ],
+      "duration_ms": 159087
+    },
+    "8588ad57-e4cd-400c-9da4-c0bbd3840a1a": {
+      "tokens": {
+        "input": 39,
+        "output": 20334
+      },
+      "files": [
+        "memory/semantic/preferences.md"
+      ],
+      "duration_ms": 3851509
+    },
+    "b3460e57-f9e7-4b0c-a94f-b94773906952": {
+      "tokens": {
+        "input": 26,
+        "output": 10861
+      },
+      "files": [],
+      "duration_ms": 4702025
+    },
+    "489e932f-5ebd-4033-a60d-bd22eaefc2fc": {
+      "tokens": {
+        "input": 67,
+        "output": 57054
+      },
+      "files": [
+        "memory/semantic/preferences.md",
+        "PLAN.md",
+        "memory/semantic/project-facts.md",
+        "memory/working/single-observation-watch.md"
+      ],
+      "duration_ms": 2072368
+    },
+    "2c54dbdb-b8f3-4628-bb67-846eef9abbe4": {
+      "tokens": {
+        "input": 93,
+        "output": 71751
+      },
+      "files": [
+        "memory/semantic/constraints.md",
+        "PROJECT.md",
+        "OBJECTIVES.md",
+        "PLAN.md",
+        "memory/semantic/preferences.md"
+      ],
+      "duration_ms": 12094589
+    },
+    "c4a9017c-54e0-4975-be60-a892f094c597": {
+      "tokens": {
+        "input": 80,
+        "output": 16495
+      },
+      "files": [],
+      "duration_ms": 1610280
+    },
+    "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476": {
+      "tokens": {
+        "input": 63,
+        "output": 38409
+      },
+      "files": [
+        "drafts/2026-05-25-35-hour-run-was-the-announcement.md",
+        "memory/semantic/constraints.md",
+        "PLAN.md"
+      ],
+      "duration_ms": 4393042
+    }
+  },
+  "by_runtime": {
+    "claude_code": {
+      "tokens": {
+        "input": 430,
+        "output": 227199
+      },
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 430,
+          "output": 227199
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "files_edited": 14,
+      "sessions": 9,
+      "active_minutes": 521
+    }
+  },
+  "_session_totals": {
+    "d81c2f65-4d89-425a-9a13-e32421530f5b": {
+      "tokens": {
+        "input": 16,
+        "output": 2992
+      },
+      "files": [],
+      "duration_ms": 48718,
+      "first_ts": "2026-05-19T11:28:56.084Z",
+      "last_ts": "2026-05-19T11:29:44.802Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 16,
+          "output": 2992
+        }
+      }
+    },
+    "1176d947-b6f1-4739-b4e5-759f98b6037b": {
+      "tokens": {
+        "input": 24,
+        "output": 2819
+      },
+      "files": [],
+      "duration_ms": 2586272,
+      "first_ts": "2026-05-20T09:05:59.537Z",
+      "last_ts": "2026-05-20T09:49:05.809Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 24,
+          "output": 2819
+        }
+      }
+    },
+    "4c28fb56-96fa-4bf0-9ea4-724149bcddbc": {
+      "tokens": {
+        "input": 22,
+        "output": 6484
+      },
+      "files": [
+        "PROJECT.md"
+      ],
+      "duration_ms": 159087,
+      "first_ts": "2026-05-20T11:19:03.307Z",
+      "last_ts": "2026-05-20T11:21:42.394Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 22,
+          "output": 6484
+        }
+      }
+    },
+    "8588ad57-e4cd-400c-9da4-c0bbd3840a1a": {
+      "tokens": {
+        "input": 39,
+        "output": 20334
+      },
+      "files": [
+        "memory/semantic/preferences.md"
+      ],
+      "duration_ms": 3851509,
+      "first_ts": "2026-05-20T12:48:21.499Z",
+      "last_ts": "2026-05-20T13:52:33.008Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 39,
+          "output": 20334
+        }
+      }
+    },
+    "b3460e57-f9e7-4b0c-a94f-b94773906952": {
+      "tokens": {
+        "input": 26,
+        "output": 10861
+      },
+      "files": [],
+      "duration_ms": 4702025,
+      "first_ts": "2026-05-20T13:05:27.253Z",
+      "last_ts": "2026-05-20T14:23:49.278Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 26,
+          "output": 10861
+        }
+      }
+    },
+    "489e932f-5ebd-4033-a60d-bd22eaefc2fc": {
+      "tokens": {
+        "input": 67,
+        "output": 57054
+      },
+      "files": [
+        "memory/semantic/preferences.md",
+        "PLAN.md",
+        "memory/semantic/project-facts.md",
+        "memory/working/single-observation-watch.md"
+      ],
+      "duration_ms": 2072368,
+      "first_ts": "2026-05-22T14:35:34.992Z",
+      "last_ts": "2026-05-22T15:10:07.360Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 67,
+          "output": 57054
+        }
+      }
+    },
+    "2c54dbdb-b8f3-4628-bb67-846eef9abbe4": {
+      "tokens": {
+        "input": 93,
+        "output": 71751
+      },
+      "files": [
+        "memory/semantic/constraints.md",
+        "PROJECT.md",
+        "OBJECTIVES.md",
+        "PLAN.md",
+        "memory/semantic/preferences.md"
+      ],
+      "duration_ms": 12094589,
+      "first_ts": "2026-05-22T14:56:05.500Z",
+      "last_ts": "2026-05-22T18:17:40.089Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 93,
+          "output": 71751
+        }
+      }
+    },
+    "c4a9017c-54e0-4975-be60-a892f094c597": {
+      "tokens": {
+        "input": 80,
+        "output": 16495
+      },
+      "files": [],
+      "duration_ms": 1610280,
+      "first_ts": "2026-05-22T15:12:15.845Z",
+      "last_ts": "2026-05-22T15:39:06.125Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 80,
+          "output": 16495
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476": {
+      "tokens": {
+        "input": 63,
+        "output": 38409
+      },
+      "files": [
+        "drafts/2026-05-25-35-hour-run-was-the-announcement.md",
+        "memory/semantic/constraints.md",
+        "PLAN.md"
+      ],
+      "duration_ms": 4393042,
+      "first_ts": "2026-05-25T15:56:06.816Z",
+      "last_ts": "2026-05-25T17:09:19.858Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 63,
+          "output": 38409
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "updated_at": "2026-05-25T17:08:25Z",
+  "sessions": {
+    "d81c2f65-4d89-425a-9a13-e32421530f5b": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-19T11:28:56.084Z",
+      "todos": []
+    },
+    "1176d947-b6f1-4739-b4e5-759f98b6037b": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-20T09:05:59.537Z",
+      "todos": []
+    },
+    "4c28fb56-96fa-4bf0-9ea4-724149bcddbc": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-20T11:19:03.307Z",
+      "todos": []
+    },
+    "8588ad57-e4cd-400c-9da4-c0bbd3840a1a": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-20T12:48:21.499Z",
+      "todos": []
+    },
+    "b3460e57-f9e7-4b0c-a94f-b94773906952": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-20T13:05:27.253Z",
+      "todos": []
+    },
+    "489e932f-5ebd-4033-a60d-bd22eaefc2fc": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-22T14:35:34.992Z",
+      "todos": []
+    },
+    "2c54dbdb-b8f3-4628-bb67-846eef9abbe4": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-22T14:56:05.500Z",
+      "todos": []
+    },
+    "c4a9017c-54e0-4975-be60-a892f094c597": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-22T15:12:15.845Z",
+      "todos": [
+        {
+          "id": "1",
+          "content": "Install xbook browsers (Playwright)",
+          "status": "in_progress",
+          "description": "Run `xbook --install-browsers` to install Playwright Chromium for the bookmark fetcher.",
+          "active_form": "Installing xbook browsers"
+        },
+        {
+          "id": "2",
+          "content": "Install xbook Linux deps",
+          "status": "completed",
+          "description": "Run `xbook --install-deps` for Chromium system libraries on Linux.",
+          "active_form": "Installing xbook system deps"
+        },
+        {
+          "id": "3",
+          "content": "Copy xbook skill to project-scoped path",
+          "status": "completed",
+          "description": "Place SKILL.md at `<cultron>/.claude/skills/xbook/SKILL.md` — never globally.",
+          "active_form": "Copying xbook skill into project"
+        },
+        {
+          "id": "4",
+          "content": "Verify xbook credentials and fetch bookmarks",
+          "status": "completed",
+          "description": "Check ~/.config/xbook/.env; if missing, ask user to run `xbook --setup`. Otherwise fetch.",
+          "active_form": "Fetching bookmarks via xbook"
+        }
+      ]
+    },
+    "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476": {
+      "runtime": "claude_code",
+      "source_file": null,
+      "session_started_at": "2026-05-25T15:56:06.816Z",
+      "todos": [
+        {
+          "id": "1",
+          "content": "",
+          "status": "in_progress",
+          "description": null,
+          "active_form": null
+        },
+        {
+          "id": "2",
+          "content": "",
+          "status": "completed",
+          "description": null,
+          "active_form": null
+        },
+        {
+          "id": "3",
+          "content": "",
+          "status": "completed",
+          "description": null,
+          "active_form": null
+        },
+        {
+          "id": "4",
+          "content": "",
+          "status": "completed",
+          "description": null,
+          "active_form": null
+        },
+        {
+          "id": "5",
+          "content": "",
+          "status": "completed",
+          "description": null,
+          "active_form": null
+        },
+        {
+          "id": "6",
+          "content": "",
+          "status": "completed",
+          "description": null,
+          "active_form": null
+        },
+        {
+          "id": "7",
+          "content": "",
+          "status": "completed",
+          "description": null,
+          "active_form": null
+        },
+        {
+          "id": "8",
+          "content": "",
+          "status": "completed",
+          "description": null,
+          "active_form": null
+        }
+      ]
+    }
+  }
+}
