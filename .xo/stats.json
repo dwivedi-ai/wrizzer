@@ -1,44 +1,62 @@
 {
-  "schema": 1,
-  "updated_at": "2026-05-25T17:47:02Z",
+  "schema": 2,
+  "updated_at": "2026-06-04T17:55:20Z",
   "rolling": {
     "7d": {
       "tokens": {
-        "input": 457,
-        "output": 257198
+        "input": 9451,
+        "output": 100194
       },
       "by_model": {
-        "claude-opus-4-7": {
-          "input": 457,
-          "output": 257198
-        },
-        "<synthetic>": {
-          "input": 0,
-          "output": 0
+        "claude-opus-4-8": {
+          "input": 9451,
+          "output": 100194
         }
       },
-      "files_edited": 15,
-      "sessions": 9,
-      "active_minutes": 558
+      "by_tool": {
+        "Bash": 4,
+        "Write": 9,
+        "Edit": 16,
+        "Read": 8,
+        "WebSearch": 2
+      },
+      "files_edited": 13,
+      "sessions": 1,
+      "active_minutes": 1796
     },
     "30d": {
       "tokens": {
-        "input": 457,
-        "output": 257198
+        "input": 16308,
+        "output": 385340
       },
       "by_model": {
         "claude-opus-4-7": {
-          "input": 457,
-          "output": 257198
+          "input": 509,
+          "output": 267838
         },
         "<synthetic>": {
           "input": 0,
           "output": 0
+        },
+        "claude-sonnet-4-6": {
+          "input": 28,
+          "output": 5214
+        },
+        "claude-opus-4-8": {
+          "input": 15771,
+          "output": 112288
         }
       },
-      "files_edited": 15,
-      "sessions": 9,
-      "active_minutes": 558
+      "by_tool": {
+        "Read": 9,
+        "Bash": 10,
+        "Write": 9,
+        "Edit": 16,
+        "WebSearch": 2
+      },
+      "files_edited": 28,
+      "sessions": 16,
+      "active_minutes": 2396
     }
   },
   "by_session": {
@@ -48,7 +66,14 @@
         "output": 2992
       },
       "files": [],
-      "duration_ms": 48718
+      "duration_ms": 48718,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 16,
+          "output": 2992
+        }
+      }
     },
     "1176d947-b6f1-4739-b4e5-759f98b6037b": {
       "tokens": {
@@ -56,7 +81,14 @@
         "output": 2819
       },
       "files": [],
-      "duration_ms": 2586272
+      "duration_ms": 2586272,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 24,
+          "output": 2819
+        }
+      }
     },
     "4c28fb56-96fa-4bf0-9ea4-724149bcddbc": {
       "tokens": {
@@ -66,7 +98,14 @@
       "files": [
         "PROJECT.md"
       ],
-      "duration_ms": 159087
+      "duration_ms": 159087,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 22,
+          "output": 6484
+        }
+      }
     },
     "8588ad57-e4cd-400c-9da4-c0bbd3840a1a": {
       "tokens": {
@@ -76,7 +115,14 @@
       "files": [
         "memory/semantic/preferences.md"
       ],
-      "duration_ms": 3851509
+      "duration_ms": 3851509,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 39,
+          "output": 20334
+        }
+      }
     },
     "b3460e57-f9e7-4b0c-a94f-b94773906952": {
       "tokens": {
@@ -84,7 +130,14 @@
         "output": 10861
       },
       "files": [],
-      "duration_ms": 4702025
+      "duration_ms": 4702025,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 26,
+          "output": 10861
+        }
+      }
     },
     "489e932f-5ebd-4033-a60d-bd22eaefc2fc": {
       "tokens": {
@@ -97,7 +150,14 @@
         "memory/semantic/project-facts.md",
         "memory/working/single-observation-watch.md"
       ],
-      "duration_ms": 2072368
+      "duration_ms": 2072368,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 67,
+          "output": 57054
+        }
+      }
     },
     "2c54dbdb-b8f3-4628-bb67-846eef9abbe4": {
       "tokens": {
@@ -111,7 +171,14 @@
         "PLAN.md",
         "memory/semantic/preferences.md"
       ],
-      "duration_ms": 12094589
+      "duration_ms": 12094589,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 93,
+          "output": 71751
+        }
+      }
     },
     "c4a9017c-54e0-4975-be60-a892f094c597": {
       "tokens": {
@@ -119,7 +186,18 @@
         "output": 16495
       },
       "files": [],
-      "duration_ms": 1610280
+      "duration_ms": 1610280,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 80,
+          "output": 16495
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0
+        }
+      }
     },
     "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476": {
       "tokens": {
@@ -132,28 +210,456 @@
         "PLAN.md",
         "PROGRESS.md"
       ],
-      "duration_ms": 6644352
-    }
-  },
-  "by_runtime": {
-    "claude_code": {
+      "duration_ms": 6644352,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 90,
+          "output": 68408
+        }
+      }
+    },
+    "7adb94fa-0aae-4ef9-9783-7d6bbb8ee1ca": {
       "tokens": {
-        "input": 457,
-        "output": 257198
+        "input": 17,
+        "output": 1730
+      },
+      "files": [],
+      "duration_ms": 43225,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 17,
+          "output": 1730
+        }
+      }
+    },
+    "4957cace-a4d6-4f04-864d-aab0b07248c3": {
+      "tokens": {
+        "input": 8,
+        "output": 1371
+      },
+      "files": [],
+      "duration_ms": 18198,
+      "tools": {
+        "Read": 1
       },
       "by_model": {
         "claude-opus-4-7": {
-          "input": 457,
-          "output": 257198
+          "input": 8,
+          "output": 1371
+        }
+      }
+    },
+    "c9cce3ff-4613-461d-81a9-74c819f2feb6": {
+      "tokens": {
+        "input": 28,
+        "output": 5214
+      },
+      "files": [],
+      "duration_ms": 1919034,
+      "tools": {
+        "Bash": 5
+      },
+      "by_model": {
+        "claude-sonnet-4-6": {
+          "input": 28,
+          "output": 5214
+        }
+      }
+    },
+    "0161f044-7eb1-4705-8ffd-077a7ab0db5a": {
+      "tokens": {
+        "input": 27,
+        "output": 7539
+      },
+      "files": [],
+      "duration_ms": 263589,
+      "tools": {
+        "Bash": 1
+      },
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 27,
+          "output": 7539
+        }
+      }
+    },
+    "e40dc766-d52a-467d-ae13-9c0121cceffd": {
+      "tokens": {
+        "input": 2927,
+        "output": 5296
+      },
+      "files": [],
+      "duration_ms": 300988,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 2927,
+          "output": 5296
         },
         "<synthetic>": {
           "input": 0,
           "output": 0
         }
+      }
+    },
+    "4c71df29-44cb-4586-bbaf-232cd72ea1fc": {
+      "tokens": {
+        "input": 3393,
+        "output": 6798
       },
-      "files_edited": 15,
-      "sessions": 9,
-      "active_minutes": 558
+      "files": [],
+      "duration_ms": 123789,
+      "tools": {},
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 3393,
+          "output": 6798
+        }
+      }
+    },
+    "5a348d50-a844-48c7-8d75-cbaccd4eea96": {
+      "tokens": {
+        "input": 9451,
+        "output": 100194
+      },
+      "files": [
+        "memory/episodic/2026-06-03-xo-company-social-manager-mode.md",
+        "PROGRESS.md",
+        "memory/semantic/preferences.md",
+        "memory/semantic/project-facts.md",
+        "memory/semantic/constraints.md",
+        "memory/procedural/company-account-social-engagement.md",
+        "drafts/2026-06-03-xo-social-engagement-set.md",
+        "PLAN.md",
+        "drafts/2026-06-03-agents-new-microservices-article.md",
+        "memory/episodic/2026-06-03-learning-from-posted-edits.md",
+        "drafts/2026-06-03-new-dashboard-announcement.md",
+        "XO.md",
+        "PROJECT.md"
+      ],
+      "duration_ms": 107818642,
+      "tools": {
+        "Bash": 4,
+        "Write": 9,
+        "Edit": 16,
+        "Read": 8,
+        "WebSearch": 2
+      },
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 9451,
+          "output": 100194
+        }
+      }
+    }
+  },
+  "by_runtime": {
+    "claude_code": {
+      "tokens": {
+        "input": 16308,
+        "output": 385340
+      },
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 509,
+          "output": 267838
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0
+        },
+        "claude-sonnet-4-6": {
+          "input": 28,
+          "output": 5214
+        },
+        "claude-opus-4-8": {
+          "input": 15771,
+          "output": 112288
+        }
+      },
+      "by_tool": {
+        "Read": 9,
+        "Bash": 10,
+        "Write": 9,
+        "Edit": 16,
+        "WebSearch": 2
+      },
+      "files_edited": 28,
+      "sessions": 16,
+      "active_minutes": 2396
+    }
+  },
+  "by_day": {
+    "2026-05-26": {
+      "tokens": {
+        "input": 35,
+        "output": 8910,
+        "cache_read": 737616,
+        "cache_write": 107124
+      },
+      "messages": {
+        "total": 48,
+        "user": 33,
+        "assistant": 15,
+        "toolCalls": 2,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 35,
+          "output": 8910,
+          "count": 15
+        }
+      },
+      "latency": {
+        "count": 15,
+        "sum_ms": 109982,
+        "min_ms": 2211,
+        "max_ms": 48642,
+        "p95_sample": [
+          3467,
+          3756,
+          7309,
+          3713,
+          4061,
+          4752,
+          8683,
+          6295,
+          2211,
+          2628,
+          5659,
+          3375,
+          2778,
+          2653,
+          48642
+        ]
+      }
+    },
+    "2026-05-25": {
+      "tokens": {
+        "input": 28,
+        "output": 5214,
+        "cache_read": 538971,
+        "cache_write": 19870
+      },
+      "messages": {
+        "total": 43,
+        "user": 23,
+        "assistant": 20,
+        "toolCalls": 5,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-sonnet-4-6": {
+          "input": 28,
+          "output": 5214,
+          "count": 20
+        }
+      },
+      "latency": {
+        "count": 20,
+        "sum_ms": 97217,
+        "min_ms": 1536,
+        "max_ms": 23443,
+        "p95_sample": [
+          2838,
+          23443,
+          3516,
+          13059,
+          2252,
+          4086,
+          2890,
+          2853,
+          3777,
+          4312,
+          6165,
+          5214,
+          2578,
+          2790,
+          2531,
+          3849,
+          2551,
+          2374,
+          4603,
+          1536
+        ]
+      }
+    },
+    "2026-05-28": {
+      "tokens": {
+        "input": 6320,
+        "output": 12094,
+        "cache_read": 308615,
+        "cache_write": 95725
+      },
+      "messages": {
+        "total": 60,
+        "user": 46,
+        "assistant": 14,
+        "toolCalls": 0,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 6320,
+          "output": 12094,
+          "count": 9
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0,
+          "count": 5
+        }
+      },
+      "latency": {
+        "count": 14,
+        "sum_ms": 81706,
+        "min_ms": 1,
+        "max_ms": 38880,
+        "p95_sample": [
+          3205,
+          3951,
+          7405,
+          1,
+          526,
+          924,
+          439,
+          4653,
+          5556,
+          3279,
+          2966,
+          4815,
+          38880,
+          5106
+        ]
+      }
+    },
+    "2026-06-03": {
+      "tokens": {
+        "input": 7476,
+        "output": 64097,
+        "cache_read": 3256179,
+        "cache_write": 402263
+      },
+      "messages": {
+        "total": 94,
+        "user": 54,
+        "assistant": 40,
+        "toolCalls": 24,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 7476,
+          "output": 64097,
+          "count": 40
+        }
+      },
+      "latency": {
+        "count": 40,
+        "sum_ms": 752471,
+        "min_ms": 2877,
+        "max_ms": 75098,
+        "p95_sample": [
+          5542,
+          4139,
+          4420,
+          5794,
+          23825,
+          4740,
+          53020,
+          20755,
+          49916,
+          40614,
+          30556,
+          36292,
+          57476,
+          6304,
+          8297,
+          6461,
+          13212,
+          7684,
+          3758,
+          5356,
+          5987,
+          2877,
+          7470,
+          15101,
+          9115,
+          4970,
+          4747,
+          7478,
+          34054,
+          62227,
+          28342,
+          29747,
+          6733,
+          11613,
+          34684,
+          75098,
+          3465,
+          9409,
+          4663,
+          6530
+        ]
+      }
+    },
+    "2026-06-04": {
+      "tokens": {
+        "input": 1975,
+        "output": 36097,
+        "cache_read": 2335615,
+        "cache_write": 997530
+      },
+      "messages": {
+        "total": 40,
+        "user": 20,
+        "assistant": 20,
+        "toolCalls": 15,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 1975,
+          "output": 36097,
+          "count": 20
+        }
+      },
+      "latency": {
+        "count": 20,
+        "sum_ms": 432039,
+        "min_ms": 3753,
+        "max_ms": 83008,
+        "p95_sample": [
+          31285,
+          52578,
+          15842,
+          3840,
+          3753,
+          26699,
+          83008,
+          10817,
+          26864,
+          11643,
+          58194,
+          5927,
+          22756,
+          10288,
+          4716,
+          17436,
+          11466,
+          16203,
+          6170,
+          12554
+        ]
+      }
     }
   },
   "_session_totals": {
@@ -332,6 +838,432 @@
           "input": 90,
           "output": 68408
         }
+      }
+    },
+    "7adb94fa-0aae-4ef9-9783-7d6bbb8ee1ca": {
+      "tokens": {
+        "input": 17,
+        "output": 1730
+      },
+      "files": [],
+      "duration_ms": 43225,
+      "first_ts": "2026-05-25T19:08:05.206Z",
+      "last_ts": "2026-05-25T19:08:48.431Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 17,
+          "output": 1730
+        }
+      }
+    },
+    "4957cace-a4d6-4f04-864d-aab0b07248c3": {
+      "tokens": {
+        "input": 8,
+        "output": 1371
+      },
+      "files": [],
+      "duration_ms": 18198,
+      "first_ts": "2026-05-26T09:40:36.919Z",
+      "last_ts": "2026-05-26T09:40:55.117Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 8,
+          "output": 1371
+        }
+      },
+      "tools": {
+        "Read": 1
+      }
+    },
+    "c9cce3ff-4613-461d-81a9-74c819f2feb6": {
+      "tokens": {
+        "input": 28,
+        "output": 5214
+      },
+      "files": [],
+      "duration_ms": 1919034,
+      "first_ts": "2026-05-25T17:20:52.925Z",
+      "last_ts": "2026-05-25T17:52:51.959Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-sonnet-4-6": {
+          "input": 28,
+          "output": 5214
+        }
+      },
+      "tools": {
+        "Bash": 5
+      }
+    },
+    "0161f044-7eb1-4705-8ffd-077a7ab0db5a": {
+      "tokens": {
+        "input": 27,
+        "output": 7539
+      },
+      "files": [],
+      "duration_ms": 263589,
+      "first_ts": "2026-05-26T18:46:45.380Z",
+      "last_ts": "2026-05-26T18:51:08.969Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-7": {
+          "input": 27,
+          "output": 7539
+        }
+      },
+      "tools": {
+        "Bash": 1
+      }
+    },
+    "e40dc766-d52a-467d-ae13-9c0121cceffd": {
+      "tokens": {
+        "input": 2927,
+        "output": 5296
+      },
+      "files": [],
+      "duration_ms": 300988,
+      "first_ts": "2026-05-28T17:05:37.686Z",
+      "last_ts": "2026-05-28T17:10:38.674Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-8": {
+          "input": 2927,
+          "output": 5296
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "tools": {}
+    },
+    "4c71df29-44cb-4586-bbaf-232cd72ea1fc": {
+      "tokens": {
+        "input": 3393,
+        "output": 6798
+      },
+      "files": [],
+      "duration_ms": 123789,
+      "first_ts": "2026-05-28T17:10:44.743Z",
+      "last_ts": "2026-05-28T17:12:48.532Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-8": {
+          "input": 3393,
+          "output": 6798
+        }
+      },
+      "tools": {}
+    },
+    "5a348d50-a844-48c7-8d75-cbaccd4eea96": {
+      "tokens": {
+        "input": 9451,
+        "output": 100194
+      },
+      "files": [
+        "memory/episodic/2026-06-03-xo-company-social-manager-mode.md",
+        "PROGRESS.md",
+        "memory/semantic/preferences.md",
+        "memory/semantic/project-facts.md",
+        "memory/semantic/constraints.md",
+        "memory/procedural/company-account-social-engagement.md",
+        "drafts/2026-06-03-xo-social-engagement-set.md",
+        "PLAN.md",
+        "drafts/2026-06-03-agents-new-microservices-article.md",
+        "memory/episodic/2026-06-03-learning-from-posted-edits.md",
+        "drafts/2026-06-03-new-dashboard-announcement.md",
+        "XO.md",
+        "PROJECT.md"
+      ],
+      "duration_ms": 107818642,
+      "first_ts": "2026-06-03T11:58:21.361Z",
+      "last_ts": "2026-06-04T17:55:20.003Z",
+      "runtime": "claude_code",
+      "by_model_tokens": {
+        "claude-opus-4-8": {
+          "input": 9451,
+          "output": 100194
+        }
+      },
+      "tools": {
+        "Bash": 4,
+        "Write": 9,
+        "Edit": 16,
+        "Read": 8,
+        "WebSearch": 2
+      }
+    }
+  },
+  "_by_day_totals": {
+    "2026-05-26": {
+      "tokens": {
+        "input": 35,
+        "output": 8910,
+        "cache_read": 737616,
+        "cache_write": 107124
+      },
+      "messages": {
+        "total": 48,
+        "user": 33,
+        "assistant": 15,
+        "toolCalls": 2,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-7": {
+          "input": 35,
+          "output": 8910,
+          "count": 15
+        }
+      },
+      "latency": {
+        "count": 15,
+        "sum_ms": 109982,
+        "min_ms": 2211,
+        "max_ms": 48642,
+        "p95_sample": [
+          3467,
+          3756,
+          7309,
+          3713,
+          4061,
+          4752,
+          8683,
+          6295,
+          2211,
+          2628,
+          5659,
+          3375,
+          2778,
+          2653,
+          48642
+        ]
+      }
+    },
+    "2026-05-25": {
+      "tokens": {
+        "input": 28,
+        "output": 5214,
+        "cache_read": 538971,
+        "cache_write": 19870
+      },
+      "messages": {
+        "total": 43,
+        "user": 23,
+        "assistant": 20,
+        "toolCalls": 5,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-sonnet-4-6": {
+          "input": 28,
+          "output": 5214,
+          "count": 20
+        }
+      },
+      "latency": {
+        "count": 20,
+        "sum_ms": 97217,
+        "min_ms": 1536,
+        "max_ms": 23443,
+        "p95_sample": [
+          2838,
+          23443,
+          3516,
+          13059,
+          2252,
+          4086,
+          2890,
+          2853,
+          3777,
+          4312,
+          6165,
+          5214,
+          2578,
+          2790,
+          2531,
+          3849,
+          2551,
+          2374,
+          4603,
+          1536
+        ]
+      }
+    },
+    "2026-05-28": {
+      "tokens": {
+        "input": 6320,
+        "output": 12094,
+        "cache_read": 308615,
+        "cache_write": 95725
+      },
+      "messages": {
+        "total": 60,
+        "user": 46,
+        "assistant": 14,
+        "toolCalls": 0,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 6320,
+          "output": 12094,
+          "count": 9
+        },
+        "<synthetic>": {
+          "input": 0,
+          "output": 0,
+          "count": 5
+        }
+      },
+      "latency": {
+        "count": 14,
+        "sum_ms": 81706,
+        "min_ms": 1,
+        "max_ms": 38880,
+        "p95_sample": [
+          3205,
+          3951,
+          7405,
+          1,
+          526,
+          924,
+          439,
+          4653,
+          5556,
+          3279,
+          2966,
+          4815,
+          38880,
+          5106
+        ]
+      }
+    },
+    "2026-06-03": {
+      "tokens": {
+        "input": 7476,
+        "output": 64097,
+        "cache_read": 3256179,
+        "cache_write": 402263
+      },
+      "messages": {
+        "total": 94,
+        "user": 54,
+        "assistant": 40,
+        "toolCalls": 24,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 7476,
+          "output": 64097,
+          "count": 40
+        }
+      },
+      "latency": {
+        "count": 40,
+        "sum_ms": 752471,
+        "min_ms": 2877,
+        "max_ms": 75098,
+        "p95_sample": [
+          5542,
+          4139,
+          4420,
+          5794,
+          23825,
+          4740,
+          53020,
+          20755,
+          49916,
+          40614,
+          30556,
+          36292,
+          57476,
+          6304,
+          8297,
+          6461,
+          13212,
+          7684,
+          3758,
+          5356,
+          5987,
+          2877,
+          7470,
+          15101,
+          9115,
+          4970,
+          4747,
+          7478,
+          34054,
+          62227,
+          28342,
+          29747,
+          6733,
+          11613,
+          34684,
+          75098,
+          3465,
+          9409,
+          4663,
+          6530
+        ]
+      }
+    },
+    "2026-06-04": {
+      "tokens": {
+        "input": 1975,
+        "output": 36097,
+        "cache_read": 2335615,
+        "cache_write": 997530
+      },
+      "messages": {
+        "total": 40,
+        "user": 20,
+        "assistant": 20,
+        "toolCalls": 15,
+        "toolResults": 0,
+        "errors": 0
+      },
+      "by_model": {
+        "claude-opus-4-8": {
+          "input": 1975,
+          "output": 36097,
+          "count": 20
+        }
+      },
+      "latency": {
+        "count": 20,
+        "sum_ms": 432039,
+        "min_ms": 3753,
+        "max_ms": 83008,
+        "p95_sample": [
+          31285,
+          52578,
+          15842,
+          3840,
+          3753,
+          26699,
+          83008,
+          10817,
+          26864,
+          11643,
+          58194,
+          5927,
+          22756,
+          10288,
+          4716,
+          17436,
+          11466,
+          16203,
+          6170,
+          12554
+        ]
       }
     }
   }

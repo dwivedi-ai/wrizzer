@@ -48,3 +48,32 @@
 {"ts": "2026-05-25T17:32:52.620Z", "session_id": "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/constraints.md"}
 {"ts": "2026-05-25T17:32:59.282Z", "session_id": "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476", "runtime": "claude_code", "type": "file.edited", "path": "PLAN.md"}
 {"ts": "2026-05-25T17:33:11.859Z", "session_id": "ef35b7e3-1ed5-46a4-b4a5-af4370ffc476", "runtime": "claude_code", "type": "file.edited", "path": "PROGRESS.md"}
+{"ts": "2026-05-25T19:08:05.206Z", "session_id": "7adb94fa-0aae-4ef9-9783-7d6bbb8ee1ca", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-05-26T09:40:36.919Z", "session_id": "4957cace-a4d6-4f04-864d-aab0b07248c3", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-05-25T17:20:52.925Z", "session_id": "c9cce3ff-4613-461d-81a9-74c819f2feb6", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-05-26T18:46:45.380Z", "session_id": "0161f044-7eb1-4705-8ffd-077a7ab0db5a", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-05-28T17:05:37.686Z", "session_id": "e40dc766-d52a-467d-ae13-9c0121cceffd", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-05-28T17:10:44.743Z", "session_id": "4c71df29-44cb-4586-bbaf-232cd72ea1fc", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-06-03T11:58:21.361Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-06-03T16:00:24.666Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "session.started"}
+{"ts": "2026-06-03T16:06:14.613Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.created", "path": "memory/episodic/2026-06-03-xo-company-social-manager-mode.md"}
+{"ts": "2026-06-03T16:06:32.851Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "PROGRESS.md"}
+{"ts": "2026-06-03T16:06:54.082Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "PROGRESS.md"}
+{"ts": "2026-06-03T16:07:11.314Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/preferences.md"}
+{"ts": "2026-06-03T16:07:30.480Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/project-facts.md"}
+{"ts": "2026-06-03T16:07:44.465Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/constraints.md"}
+{"ts": "2026-06-03T16:08:08.849Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.created", "path": "memory/procedural/company-account-social-engagement.md"}
+{"ts": "2026-06-03T16:08:30.229Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.created", "path": "drafts/2026-06-03-xo-social-engagement-set.md"}
+{"ts": "2026-06-03T16:08:54.143Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "PLAN.md"}
+{"ts": "2026-06-03T16:48:29.057Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.created", "path": "drafts/2026-06-03-agents-new-microservices-article.md"}
+{"ts": "2026-06-03T17:03:52.706Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/preferences.md"}
+{"ts": "2026-06-04T15:58:32.283Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/preferences.md"}
+{"ts": "2026-06-04T15:58:48.383Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/procedural/company-account-social-engagement.md"}
+{"ts": "2026-06-04T15:59:06.623Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.created", "path": "memory/episodic/2026-06-03-learning-from-posted-edits.md"}
+{"ts": "2026-06-04T17:06:40.762Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.created", "path": "drafts/2026-06-03-new-dashboard-announcement.md"}
+{"ts": "2026-06-04T17:22:00.725Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/preferences.md"}
+{"ts": "2026-06-04T17:53:24.160Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.created", "path": "XO.md"}
+{"ts": "2026-06-04T17:53:53.854Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "memory/semantic/project-facts.md"}
+{"ts": "2026-06-04T17:54:07.254Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "PROJECT.md"}
+{"ts": "2026-06-04T17:54:30.312Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "PROGRESS.md"}
+{"ts": "2026-06-04T17:54:59.275Z", "session_id": "5a348d50-a844-48c7-8d75-cbaccd4eea96", "runtime": "claude_code", "type": "file.edited", "path": "PLAN.md"}

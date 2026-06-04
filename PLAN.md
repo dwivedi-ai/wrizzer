@@ -131,6 +131,22 @@ These were promoted to `memory/semantic/preferences.md` on 2026-05-22. Watching 
 2. Then redo the tweet task: one tweet, committed, from a different bookmark (user's pick or agent's pick cold with stated position).
 3. Or pivot back to O1 sample collection — short-form / fiction / marketing genres still missing.
 
+## O3 social front — XO company account (new 2026-06-03)
+
+**New sub-mode of the writing-partner role:** wrizzer acts as social media manager for **XO's company X account** (the user's agentic-infra startup). The user pastes a tweet; wrizzer calls reply vs quote-tweet with a one-line reason and drafts the copy. Voice: Gen-Z-fluent but B2B-credible. The user posts; wrizzer drafts.
+
+- **All XO company/product/positioning facts now live in `/home/coder/xo-projects/cultron/XO.md`** (pulled out of `project-facts.md` on 2026-06-03 so they don't mix with writing-research facts). Load XO.md for any XO content task. Pointers added in `PROJECT.md` and `project-facts.md`.
+- The reply-vs-QRT method is `memory/procedural/company-account-social-engagement.md` (now validated against live posts). Hard rules (never pitch under someone else's tweet; value-first; be selective) are in `constraints.md`.
+- **Posted live 2026-06-03:** the user published a batch from XO's account (QRT, five-walls reply, bottleneck tweet, harness-engineer reply, /fork reply, loop-pushback reply, green-checkmark fun tweet), most near-verbatim. His edits taught the "What landed live" rules in `preferences.md`: don't dress the insight, kill the manufactured closer, let genuine enthusiasm in.
+- **Two long-form drafts pending grade/publish:** the "multi-agent is the new microservices" warning article (`/home/coder/xo-projects/cultron/drafts/2026-06-03-agents-new-microservices-article.md`) and the new-dashboard announcement (`/home/coder/xo-projects/cultron/drafts/2026-06-03-new-dashboard-announcement.md`). Tweet/social-reply drafts are in `/home/coder/xo-projects/cultron/drafts/2026-06-03-xo-social-engagement-set.md`.
+- **Craft rules added this session (apply to all prose):** no colon-compression, concrete over abstract, reading-enjoyment over efficiency, absolute clickable file paths, plus the live-edit rules and the announcement-genre rules. All in `preferences.md`; the auto-loaded ones also in cross-project auto-memory.
+
+**Next steps on this front:**
+1. Grade/publish the two long-form drafts. For the dashboard post: mark screenshot slots and cut a launch tweet that links to it.
+2. Consider the "agents for teams" flagship piece (the lane XO can own that solo-dev hack content can't).
+3. Decide a default voice dial and reply-vs-QRT lean (calibration questions still unanswered; running witty-and-warm, case-by-case).
+4. Establish whether bookmark-seeded drafting (O3 original) and company-account content share one procedural workflow or stay separate.
+
 ## Recently superseded plans
 
 - *(2026-05-25)* "Redo the drafting task: one tweet" — superseded by user choosing the article shape instead. Tweet redo is still on the next-steps list.

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-06-03T15:25:26Z",
+  "updated_at": "2026-06-03T11:58:21Z",
   "sessions": {
     "d81c2f65-4d89-425a-9a13-e32421530f5b": {
       "runtime": "claude_code",
@@ -52,7 +52,7 @@
         {
           "id": "1",
           "content": "Install xbook browsers (Playwright)",
-          "status": "completed",
+          "status": "in_progress",
           "description": "Run `xbook --install-browsers` to install Playwright Chromium for the bookmark fetcher.",
           "active_form": "Installing xbook browsers"
         },
@@ -86,59 +86,59 @@
       "todos": [
         {
           "id": "1",
-          "content": "Save em-dash-free article to drafts/",
-          "status": "completed",
-          "description": "Rewrite the 35-hour-run article without em-dashes (replace with commas/colons/periods or English connectives), save to drafts/2026-05-25-35-hour-run-was-the-announcement.md.",
-          "active_form": "Saving article"
+          "content": "",
+          "status": "in_progress",
+          "description": null,
+          "active_form": null
         },
         {
           "id": "2",
-          "content": "Add no-em-dashes hard rule to constraints.md",
+          "content": "",
           "status": "completed",
-          "description": "Append a new bullet under 'Drafting writing in this folder' in memory/semantic/constraints.md banning em-dashes in any drafted prose.",
-          "active_form": "Updating constraints"
+          "description": null,
+          "active_form": null
         },
         {
           "id": "3",
-          "content": "Update preferences.md em-dash entry",
+          "content": "",
           "status": "completed",
-          "description": "Replace the nuanced em-dash entry in preferences.md with a deferral to the new hard rule in constraints.md.",
-          "active_form": "Updating preferences"
+          "description": null,
+          "active_form": null
         },
         {
           "id": "4",
-          "content": "Write episodic memory for this session",
+          "content": "",
           "status": "completed",
-          "description": "Create memory/episodic/2026-05-25-first-bookmark-seeded-article-and-em-dash-rule.md documenting the article draft attempt + the em-dash hard rule (strong user feedback).",
-          "active_form": "Writing episode"
+          "description": null,
+          "active_form": null
         },
         {
           "id": "5",
-          "content": "Move single-observation patterns into PLAN.md",
+          "content": "",
           "status": "completed",
-          "description": "Move the contents of memory/working/single-observation-watch.md into a new section in PLAN.md so the patterns survive the working/ wipe per AGENTS.md §6.",
-          "active_form": "Migrating working notes"
+          "description": null,
+          "active_form": null
         },
         {
           "id": "6",
-          "content": "Update PLAN.md to reflect this session",
+          "content": "",
           "status": "completed",
-          "description": "Update PLAN.md: bookmark count now 16, first bookmark-seeded article drafted pending grade, em-dash hard rule added, next step revised.",
-          "active_form": "Updating PLAN"
+          "description": null,
+          "active_form": null
         },
         {
           "id": "7",
-          "content": "Append PROGRESS.md paragraph",
+          "content": "",
           "status": "completed",
-          "description": "Append one closing paragraph to PROGRESS.md following the §7 format.",
-          "active_form": "Writing PROGRESS entry"
+          "description": null,
+          "active_form": null
         },
         {
           "id": "8",
-          "content": "Wipe memory/working/",
+          "content": "",
           "status": "completed",
-          "description": "Remove memory/working/* except .gitkeep per AGENTS.md §6 step 6.",
-          "active_form": "Wiping working memory"
+          "description": null,
+          "active_form": null
         }
       ]
     },

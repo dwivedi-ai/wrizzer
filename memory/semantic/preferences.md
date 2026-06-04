@@ -17,6 +17,7 @@
 - Keep specific causal chains in debugging stories (perm mismatch → cache growth → slow writes → queue backup). Specificity is credibility.
 - When the user names a system they built (Hermes, XO workspaces, procedural memory), keep the name and gloss in one line — don't over-explain.
 - Don't summarise the diff back at them after edits — the change is visible.
+- When citing a file location, always give the absolute path from the root (e.g. `/home/coder/xo-projects/cultron/drafts/...`), never a relative path, so it is clickable. Append `:line` when pointing at a specific line.
 - Triplet / anaphora repetition is a signature move at emotional peaks: "I think of this world. I think of this universe. I think." / "I love to think. I love to imagine. I love to create."
 - One ALL-CAPS line per piece, at the peak emotional beat ("I AM A HUMAN"). Sparing — never decorative.
 - Names specific people and disciplines rather than abstracting: Newton, Einstein, Maxwell, Bohr, Heisenberg, Planck; "PCM in 11th grade"; physics, mathematics, chemistry, biology by name.
@@ -43,6 +44,9 @@
 - **Observational pose vs earned stance.** "I noticed X" is a noticing; "I think Y, and the position it refutes is Z" is a stance. Pattern-spotting and sighing at the news cycle are not positions. A tweet (or any short-form post) without a stance is decoration — and the AI default is to broadcast noticings dressed as takes. Before posting a noticing, name the position it would refuse; if there isn't one, the post isn't ready.
 - **AI-Twitter literary-clever as its own slop genre.** The chiasmus deployed to hedge ("the marketing has converged faster than the models" — softens the harder claim that both have); the linguist's word deployed on a small word ("'especially' is a stress particle" — signals taste instead of doing work); the aphorism-shaped sentence built from vague big nouns ("the agent is no longer the program, the agent is the user"). These look like craft because they have the rhythm of craft; they are slop because they do not do the work the rhythm promises. Recognise the family and cut on sight.
 - **Plain-phrasing test for every aphoristic line.** Write the plain version first. *"The agent is the user"* → *"the agent now logs into what I log into."* If the plain version is more specific and more disturbing, the aphorism is ornament — cut it, keep the plain version. Aphorisms earn their place only when no plain phrasing can do the same work.
+- **No colon-compression.** Stated by the user 2026-06-03. The "claim: list" or "thesis: payoff" structure that crams a thought into a colon reads as machine-tight, not human. Write the thought out. *"The fix is structural, and it's the part everyone skips: the harness"* becomes *"What fixes it is all the stuff wrapped around the model, and that is the part nobody posts screenshots of."* (Colons introducing a genuine quote or a real list are fine; colons used to compress a sentence into a punchline are not.)
+- **Show what it looks like instead of naming it abstractly.** Don't say "three failure modes." Say what laziness, self-grading, and goal drift actually look like to someone who has lived them. Concrete beats abstract every time; the reader should picture the thing, not parse a category.
+- **Reading enjoyment over efficiency.** Stated by the user 2026-06-03. Length is not the enemy; airless compression is. A longer sentence that flows and is pleasant to read beats a tight one that reads like a status report. When choosing between terse-and-clipped and longer-and-human, pick human. (This refines the earlier "length is earned by legibility" rule: legibility was the floor, enjoyment is the target.)
 
 ### Short-form (tweets, posts) — additional rules from 2026-05-22 workshop
 
@@ -52,3 +56,23 @@
 - **Em-dashes: don't use them in any prose drafted for the user.** Hard rule, see `constraints.md` → "Drafting writing in this folder". The earlier carve-out for "genuine breaks or asides" is superseded; the user finds em-dashes an AI-flourish tell on sight. The fix is plain English connectives (`because`, `since`, `which`, `and so`), commas, colons, parentheses, or splitting into two sentences. When *analysing* a sample, em-dashes used to stage a punchline or bridge setup-into-reveal remain a flag worth naming.
 
 **Reference exemplar** (the tweet this workshop converged on): *"Qwen launched 3.7-Max this week. It ran for 35 hours, made 1,000+ tool calls, with 'zero hand-holding' on a kernel optimization task Qwen picked. I'll care when someone runs it on one they didn't."* — verbs for facts, foil embedded inline, first-person manifesto close, cold-reader legible.
+
+### What landed live — learned from the user's own edits, 2026-06-03
+
+These come from comparing my drafts against the versions the user actually posted from XO's account. He posted most drafts near-verbatim (the voice is right), but his edits are consistent and worth obeying:
+
+- **Don't dress the insight, just say it.** My habit is to bolt framing onto the front and a clever sign-off onto the back of a good plain sentence. He strips both and keeps the bare sentence. The gem said plainly beats the gem in packaging. (He kept my core sentence "send an agent off on a tangent and have it come back without you ever leaving your main train of thought" word for word, and deleted everything wrapped around it.)
+- **Kill the manufactured closer.** Cut buttons like "Nice split", "and this is the bridge", "no Mac Mini, no DevOps". These are me flinching from just ending. End on the real point and stop. (Sub-form of the already-noted anti-sermon close, confirmed live.)
+- **Let genuine enthusiasm in.** I default to dry and analytical; the user is comfortable being openly excited ("This is so cool!", a casual "(novel)" in parentheses) and it reads as more human, not less credible. Earnest is allowed, not only wry.
+- **Throat-clearing framing goes; load-bearing framing stays.** He cut "the part people will sleep on is..." from a short reply (it only delayed the point) but kept "documents something nobody talks about" in a longer post (it set up a real payoff). Test whether the framing earns the sentence after it; if it's just a runway to the point, delete it. In short replies especially, state the gem and stop.
+
+### Announcement / product-post genre (first applied 2026-06-03, pending live grade)
+
+For a product or feature announcement on the XO blog, these kept it from reading as a changelog:
+
+- **Open on the old pain, never on "we're excited to announce."** Name concretely what was wrong before ("the old dashboard made you dig"). The pain earns the rest of the post and makes the new thing feel like relief instead of marketing.
+- **Frame the whole release around the brand's point of view, not a feature list.** The dashboard post hangs off XO's actual thesis (you should always be able to see what your agents are doing). One idea the features serve beats a flat list of features.
+- **Group by how it feels to use, not by spec.** One short section per area, leading with the single thing in it that matters, instead of enumerating every subtab. The reader should feel walked through it by a person.
+- **Let trust details do quiet sales work inline.** Security and privacy facts ("credentials stay in your workspace, not on our platform", "tokens scoped to that project only") land best dropped into the relevant sentence, not collected into a compliance paragraph. Enterprise readers scan for these.
+- **Pick one thing to be genuinely proud of and say so.** "Usage is the one we're quietly proudest of" reads as honest enthusiasm; blanket hype on everything reads as none. (Same rule as "let enthusiasm in", applied to product posts.)
+- **Keep colons out of headings too.** Use plain headline-style subheads ("Usage shows the real numbers"), not "Usage: the real numbers", to stay consistent with the no-colon-compression preference.

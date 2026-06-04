@@ -31,6 +31,8 @@ AI-generated writing is fluent but often hollow: it averages, hedges, and signal
 
 Markdown-first knowledge base. No build system. Memory and notes live in this folder per AGENTS.md.
 
+**XO company reference:** XO (the user's company) is the main subject of content work here. All XO company, product, narrative, and social-positioning facts live in one file, `/home/coder/xo-projects/cultron/XO.md`. Load it for any XO content task. Kept separate from `memory/semantic/` so XO product facts don't mix with the writing-research facts.
+
 **External tooling:**
 - `xbook` (`github.com/dwivedi-ai/xbook`) — fetches the user's X bookmarks to `bookmarks.json`. Setup is per-machine via `xbook --setup`. Its agent skill is installed **project-scoped** at `.claude/skills/xbook/SKILL.md` — never globally.
 
